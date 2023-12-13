@@ -1,0 +1,1 @@
+(()=>{"use strict";try{chrome.runtime.lastError,self.importScripts("background.js")}catch(r){}})();

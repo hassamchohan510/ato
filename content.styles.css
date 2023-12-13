@@ -1,0 +1,159 @@
+body {
+    width: 100% !important;
+}
+#TimerAutoLikeEx {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    z-index: 2147483647;
+    background: #00000075;
+}
+#coverExAutoLike {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: #eceef2;
+    top: 0;
+    left: 0;
+    z-index: 2147483647;
+}
+
+#rootError {
+    width: 70%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+    flex-direction: column;
+    overflow: hidden;
+}
+#rootErrorStop {
+    width: 70%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+    flex-direction: column;
+    overflow: hidden;
+}
+.myAuto-style {
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    padding: 20px;
+    margin: 0;
+    font-weight: normal;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    position: relative;
+    height: 100vh;
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+.myAuto-style * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.autolike-link {
+    position: relative;
+    width: 80%;
+    background-color: #fff;
+    height: auto;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 50px;
+    border: 1px solid #ccc;
+}
+
+.autolike-link .btn {
+    line-height: 1.5;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+        border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.autolike-link .getlinkAc {
+    color: #fff;
+    background-color: #e84118;
+    padding: 3px 7px;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 4px;
+    vertical-align: middle;
+    text-align: center;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.autolike-link a:hover {
+    background-color: #e84218da;
+    text-decoration: none;
+}
+.autolike-link img {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+}
+
+.autolike-link .telegram-follow-button {
+    color: #fff;
+    background: #1e96c8;
+    padding: 3px 7px;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 4px;
+    vertical-align: middle;
+    text-align: center;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+.autolike-link .telegram-follow-button:hover {
+    background: #167ba5;
+    color: #fff;
+}
+
+#BottonReloadAutolike {
+    padding: 0 10px;
+    height: 35px;
+    font-weight: 700;
+    margin: 0;
+    border: 0;
+    background: #e84118;
+    border-top: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #fff;
+    margin: 10px 0;
+    border: 0;
+}
+
+#BottonReloadAutolike button:hover,
+#BottonReloadAutolike button:focus {
+    background: #e84118;
+}

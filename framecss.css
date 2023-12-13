@@ -1,0 +1,16 @@
+body {
+    background: none !important;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.frame-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ant-progress-circle.ant-progress-status-success .ant-progress-text {
+    color: #eb524f !important;
+}

@@ -1,0 +1,31 @@
+body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    font-size: 100%;
+}
+.frame-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.content-stop-extension {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-stop-extension p {
+    width: 80%;
+}
+
+.content-stop-extension span {
+    width: 59%;
+    background: #bbb7b678;
+    padding: 3px 0;
+    color: #353b48;
+    border-top: 1px solid #fff;
+}

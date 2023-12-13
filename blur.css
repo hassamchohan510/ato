@@ -1,0 +1,36 @@
+video {
+    display: none !important;
+}
+
+video,
+#related,
+#meta-contents,
+#comments,
+#player,
+#masthead-container,
+#secondary,
+#movie_player {
+    filter: blur(48px) !important;
+}
+.image-card,
+#facebook body > div > div > div img,
+#main img,
+#react-root img,
+.AppBase img,
+.OVX,
+#app img,
+#react-root img,
+#page img,
+#viewport img {
+    filter: blur(48px) !important;
+}
+
+.page-container img {
+    filter: blur(48px) !important;
+}
+.banner-visible-area.style-scope.ytd-c4-tabbed-header-renderer {
+    background: #ccc !important;
+}
+.l9j0dhe7.i09qtzwb.esma6hys.j83agx80 {
+    display: none !important;
+}
